@@ -25,5 +25,5 @@ k8sdiy-api:599e1af%
 ```bash
 curl -F 'image=@doc/.img/orange256.png' localhost:8081/img/
 ```
-
+6. And the final result is this asciified orange cat!
 ![Result](.img/result.png)
