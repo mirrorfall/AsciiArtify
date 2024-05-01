@@ -20,6 +20,7 @@ k8sdiy-api:599e1af%
 ![Health Status: OK](.img/health_ok.png)
 
 5. We have an image with the cat and will use it for the MVP
+ 
 ![Cat](.img/orange256.png)
 ```bash
 curl -F 'image=@doc/.img/orange256.png' localhost:8081/img/
