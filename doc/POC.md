@@ -12,7 +12,8 @@ PoC — це етап, коли розробники перевіряють, ч�
 - [kustomize](https://kustomize.io/) applications  
 - [helm](https://helm.sh/) charts
 - [jsonnet](https://jsonnet.org/) files
-- Plain directory of YAML/json manifests  
+- Plain directory of YAML/json manifests
+- Any custom config management tool configured as a config management plugin
 
 `ArgoCD` - is a Kubernetes controller that continuously monitors running applications and compares the current state with the desired one. A deployment whose current state differs from the target is considered 'out of sync'. ArgoCD informs and visualizes the differences, providing opportunities for automatic or manual synchronization of the desired state.
 
